@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Createanaccount</title>
+    <link rel = "stylesheet" href = "../../CSS/stylecreateanaccount.css">
+    <script src="https://kit.fontawesome.com/eb00f32ec1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form method = "POST" action = "http://localhost:3000/login">
+    <div class = "wrapper">
+        <h1>Create an account</h1>
+        <div class = "inputBox">
+        <input type = "text" placeholder = "Username" required>
+        <i class="fa-solid fa-user"></i>
+            </div>
+        <div class = "inputBox">
+            <input type = "password" placeholder = "Password" required>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class = "inputBox">
+            <input type = "email" placeholder = "Email" required>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <button type = "submit" class = btn>Create an account</button>
+    </div>
+    </form>
+</body>
+</html>
